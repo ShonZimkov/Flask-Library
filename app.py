@@ -47,7 +47,7 @@ def load_user(user_id):
     session.close()
     return user_id
 
-#login page
+#login page 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     form = LoginForm()
